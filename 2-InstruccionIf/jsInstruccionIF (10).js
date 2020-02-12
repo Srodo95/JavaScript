@@ -1,7 +1,7 @@
 function mostrar()
 {
 	//Genero el número RANDOM entre 1 y 10 
-	var notaRandom = parseInt(Math.floor(Math.random()*(10-1)+1));
+	var notaRandom = Math.floor(Math.random()*(10-1)+1);
 
 	if(notaRandom >= 9){
 		alert("nota : "+notaRandom+" ---->EXCELENTE");
