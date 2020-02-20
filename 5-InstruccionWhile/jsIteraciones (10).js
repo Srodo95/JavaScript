@@ -12,8 +12,7 @@ function mostrar()
 	var contadorPares = 0;
 	var respuesta="si";
 	
-	while(respuesta!="no")
-	{
+	while(respuesta == "si"){
 		numero = parseInt(prompt("ingrese un numero"));
 		if(numero > 0){
 			acumuladorPositivos+=numero;
